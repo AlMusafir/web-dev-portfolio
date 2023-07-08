@@ -12,10 +12,11 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0px 200px;
     
 }
 
-.HireBtn{
+.button-primary{
     background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
@@ -36,6 +37,34 @@ nav > ul{
     display: flex;
     align-items: center;
 }
+
+
+/* Header related styles */
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+
+.mypic{
+    width: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 nav li{
