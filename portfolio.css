@@ -43,10 +43,14 @@ nav > ul{
 
 .header{
     background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* height: ; */
 }
 
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 0px 30px 150px ;
     display: flex;
     align-items: center;
 }
@@ -57,9 +61,13 @@ nav > ul{
 }
 
 
+.banner-gretting{
+    font-size: 50px;
+}
 
-
-
+.banner-title{
+    font-size: 50px;
+}
 
 
 
@@ -76,6 +84,42 @@ nav a{
     text-decoration: none;
     /* color: ; */
 }
+
+
+/* This is about ABOUT me */
+
+.about{
+    padding: 130px;
+    background-color: bisque;
+}
+
+.section-h2{
+    text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
