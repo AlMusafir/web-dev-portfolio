@@ -1,0 +1,49 @@
+/* nav related styles */
+
+body{
+    font-family:cursive;
+
+}
+
+.color-r{
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+}
+
+
+nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    /* color: ; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
