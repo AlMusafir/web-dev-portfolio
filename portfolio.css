@@ -11,6 +11,19 @@ body{
 
 nav {
     display: flex;
+    justify-content: space-between;
+    
+}
+
+.HireBtn{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 5px;
+
 }
 
 .nav-title{
@@ -21,6 +34,7 @@ nav {
 
 nav > ul{
     display: flex;
+    align-items: center;
 }
 
 
